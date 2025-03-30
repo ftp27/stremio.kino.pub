@@ -1,0 +1,21 @@
+{
+  "name": "stremio-kinopub",
+  "version": "1.0.0",
+  "description": "Unofficial KinoPub addon for Stremio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "stremio",
+    "stremio-addon",
+    "kinopub"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "opn": "^6.0.0",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
